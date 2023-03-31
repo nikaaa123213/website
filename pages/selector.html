@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        input.redbutton {
+            background-color: red;
+        }
+        input.greenbutton {
+            background-color: green;
+        }
+       input.redbutton, .greenbutton {
+            color: white;
+        }
+        input.bigbutton {
+            width: 100px;
+            height: 70px;
+        }
+        .smallbutton {
+            font-size: 8px;
+        }
+        a[target] {
+            color: red;
+        }
+        input[type=submit] {
+            color: white;
+
+        }
+        a[href*="https://novatori.ge"] {
+            color: green;
+        }
+        a, input {
+            font-size: 20px;
+        }
+        div span {
+            color: blue;
+        }
+        div > span {
+            font-weight: bold;
+        }
+        p ~ span {
+            color: red;
+        }
+        p + span {
+            font-weight: bold;
+        }
+
+    </style>
+
+  
+
+</head> 
+<body>
+    <span>This is not red.</span> 
+    <p>Here is a paragraph.</p> <code></code>deHe>re is some code.</code> <span>And here is a red span!‹/span> <span>And this is a red span!</span> <code>More code..‹/code> <div>How are you?</div>
+    <p>Whatever it may be, keep smiling.</p>
+    <span>ერტი ცჰამატენილი სპან</span>
+ 
+
+<h1>Dream big</h1>
+<span>And yet again this is a red span!</span>
+    
+
+
+    <input type="submit" class="greenbutton" value="გაგზავნა">
+    <input type="submit" class="greenbutton" value="რეგისტრაცია">
+    <input type="button" class="redbutton smallbutton" value="გაუქმება">
+    <input type="button" class="greenbutton bigbutton" value="ყიდვა">
+    <input type="submit" class="redbutton" value="გამოსვლა">
+
+    <div class="redbutton">
+        <a href="https://facebook.com" target="blank">Facebook</a>
+        <a href="https://google.com" class="redbutton">Google</a>
+        <a href="https://apple.com">Appple</a>
+        <a href="https://novatori.ge">Novatori</a>
+        <a href="background.html">Background HTML fiel</a>
+    </div>
+
+    <div> 
+        მე ვარ div ელემენტის <span>შვილი</span>
+        <p>
+            მე ვარ დივ ელემენტის შტამომავალი, <span>შვილიშვილი</span> 
+        </p>
+    </div>
+</body>
+</html>

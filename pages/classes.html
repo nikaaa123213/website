@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style> 
+        button:hover {
+            background-color: rgba(0, 0, 255, 0);
+        }
+        button {
+            background-color: blue;
+            color: white;
+            border: none;
+            padding: 8px;
+        }
+        button:active {
+            background-color: greenyellow;
+        }
+        input:focus {
+            background-color: darkgreen;
+        }
+        ul li:nth-child(3) {
+            background-color: crimson;
+        }
+        div p:first-of-type {
+            background-color: crimson;
+        }
+        ::selection {
+            background-color: gold;
+            color: white;
+        }
+        input::placeholder {
+            color: red;
+        }
+        ul::before {
+            content: '!!!';
+            position: relative;
+            left: 50px;
+            top: -15px;
+            left: -20px:
+        }
+        ul::after {
+            content: '???';
+        }
+        ul li::marker {
+            content: '>';
+
+        }
+
+    </style>
+</head>
+<body>
+    <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat, iste eligendi qui, aut nihil eum cumque sunt animi, corrupti molestiae consequatur eos voluptates nulla iusto culpa dolores. Incidunt, minus nobis!
+    </p>
+    <div> 
+        <h1> 
+            hi firends
+        </h1>
+        <p>paragraph 1</p>
+        <p>paragraoh 2</p>
+    </div>
+    <button>დააკლიკე აქ!</button>
+    <input type="text" placeholder="გადამტილე აბა" />
+    <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+        <li>6</li>
+        <li>7</li>
+        <li>8</li>
+        <li>9</li>
+        <li>10</li>
+    </ul>
+    
+</body>
+</html>
